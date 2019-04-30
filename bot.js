@@ -2,7 +2,7 @@
 const client = new Discord.Client();
 
 client.on('ready',  () => {
-  console.log('By : 3bker');
+  console.log('By : MAHMOD AR');
 });
 
 const developers = ['507892843881168897'];
@@ -42,4 +42,4 @@ if (message.content.startsWith(adminprefix + 'setavatar')) {
 });
 
 
-client.login(process.env.TOKEN);
+client.login(BOT_TOKEN);
